@@ -1,0 +1,84 @@
+.left-sidebar {
+  position: fixed;
+  width: 25%;
+  left: 0;
+  bottom: 0;
+  padding-top: 80px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 1100px) {
+  .left-sidebar {
+    display: none;
+  }
+}
+
+.left-sidebar-items-list {
+  margin-left: 5px;
+  list-style-type: none;
+}
+
+.left-sidebar-item a img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.left-sidebar-item a i {
+  font-size: 35px;
+  color: rgb(74, 74, 196);
+}
+
+.left-sidebar-item a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: black;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.left-sidebar-item a:hover {
+  background-color: #1110100b;
+}
+
+.left-sidebar-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 10px 5px;
+}
+
+.left-sidebar-bottom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.left-sidebar-bottom-header div {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+
+.left-sidebar-footer {
+  margin: 10px 5px;
+}
+
+.right-sidebar {
+  position: fixed;
+  width: 25%;
+  right: 0;
+  bottom: 0;
+  padding-top: 80px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 900px) {
+  .right-sidebar {
+    display: none;
+  }
+}
